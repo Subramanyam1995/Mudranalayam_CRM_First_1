@@ -6,3 +6,6 @@ import random
 import json
 
 
+window_1 = tk.Tk()
+
+window_1.mainloop()

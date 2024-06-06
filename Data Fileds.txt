@@ -20,3 +20,15 @@ Feild_Of_Experance(Home_Bussniess)
 Visiting_Card
 Contact_Date
 Customer_Anydesk_Deatils
+
+-------------------------
+
+First Connection*
+
+
+Name
+[ CustmerName, ContactNo ]
+Status
+NoOfTimeCalled
+FollowUpDate
+UpdateStage

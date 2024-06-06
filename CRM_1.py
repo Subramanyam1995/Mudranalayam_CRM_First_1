@@ -10,11 +10,11 @@ import random
 def loader():
     for i in range(30):
         if a[i]=="a":
-            table_1.insert(parent="", index=0,values=(f"a{i}"))
+            table_1.insert(parent="", index=0, values=(f"a{i}"))
         if a[i]=="b":
-            table_2.insert(parent="", index=0,values=(f"b{i}"))
+            table_2.insert(parent="", index=0, values=(f"b{i}"))
         if a[i]=="c":
-            table_3.insert(parent="", index=0,values=(f"c{i}"))
+            table_3.insert(parent="", index=0, values=(f"c{i}"))
 window = tk.Tk()
 a= []
 for i in range(30):

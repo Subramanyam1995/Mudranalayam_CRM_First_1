@@ -12,7 +12,7 @@ window_0_1 = tk.Tk()
 
 window_0_1.geometry("800x800")
 
-window_0_1_1 = tk.Frame(window_0_1, width=100, height=100, background="bisque")
+window_0_1_1 = tk.Frame(window_0_1, width=10, height=10,border=1)
 
 Label_1_Varible_Customer_Name = tk.StringVar(value="Customer_Name")
 Label_1_Customer_Name = ttk.Label(window_0_1_1, textvariable=Label_1_Varible_Customer_Name)
@@ -26,7 +26,9 @@ Label_3_Varible_Followup_date = tk.StringVar(value="Followup_date")
 Label_3_Followup_date = ttk.Label(window_0_1_1, textvariable=Label_3_Varible_Followup_date)
 Label_3_Followup_date.pack()
 
-window_0_1_1.grid(row=0,column=0, padx=100, pady=100)
+window_0_1_1.grid(row=0,column=0, padx=10, pady=10)
+
+
 
 window_0_1_2 = tk.Frame(window_0_1) 
 
@@ -45,16 +47,11 @@ Text_3_Followup_date.pack()
 
 window_0_1_2.grid(row=0,column=1,padx=10, pady=10)
 
-def botton_press():
-    root = tk.Tk()
-    frame1 = tk.Frame(root, width=100, height=100, background="bisque")
-    frame2 = tk.Frame(root, width=50, height = 50, background="#b22222")
 
-    frame1.pack(fill=None, expand=False)
-    frame2.place(relx=.2, rely=.5, anchor="c")
 
-    root.mainloop()
-Button_1 = tk.Button(window_0_1, text="click", command= botton_press)
-Button_1.grid(row=1,column=1,padx=10, pady=10)
+
+  
+
+   
 
 window_0_1.mainloop()

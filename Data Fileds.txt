@@ -1,5 +1,22 @@
-Custmer_Name
+Data Terms for  Stage_1 
+
+Customer_Name
+Contact_Number
+Followup_date
+
+
+Customer_Name
 Location
 Office_Name
 Sales_Report
 Contact_No
+Customer_Commucation
+Call_Recording_links
+Video_Recording_links
+Frauds
+Customer
+# (Friends_with)(Customer_Know_Each_Other)
+Feild_Of_Experance(Home_Bussniess)
+Visiting_Card
+Contact_Date
+Customer_Anydesk_Deatils

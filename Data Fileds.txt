@@ -6,10 +6,12 @@ Followup_date
 
 
 Customer_Name
+Contact_No
+
 Location
 Office_Name
 Sales_Report
-Contact_No
+
 Customer_Commucation
 Call_Recording_links
 Video_Recording_links

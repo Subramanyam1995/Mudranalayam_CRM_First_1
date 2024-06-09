@@ -1,38 +1,34 @@
 {
-    "mudranalayam": {
-        "AAAAA": {
-            "Name": [
-                [
-                    "Sudeep",
-                    1231231234
-                ],
-                [
-                    "Dileep",
-                    9902136721
-                ]
-            ],
-            "ContactNo": null,
-            "Status": null,
-            "NoOfTimeCalled": null,
-            "FollowUpDate": null,
-            "UpdateStage": null
+  "01Name": {
+    "Name1": {
+      "Name": {
+        "Name": "Dileep",
+        "Number_Of_Time_Corrected": null,
+        "Datetime.now()": null
+      },
+      "Position_In_Office": {
+        "Position": null,
+        "Number_Of_Time_Corrected": null,
+        "Datetime.now()": null
+      },
+      "Phone_Number": {
+        "Phone_Number_1": {
+          "Number1": 9880875322,
+          "Number_Of_Time_Corrected": null,
+          "Datetime.now()": null
         },
-        "AAAAB": {
-            "Name": null,
-            "ContactNo": null,
-            "Status": null,
-            "NoOfTimeCalled": null,
-            "FollowUpDate": null,
-            "UpdateStage": null
-        },
-        "AAAAC": {
-            "Name": null,
-            "ContactNo": null,
-            "Status": null,
-            "NoOfTimeCalled": null,
-            "FollowUpDate": null,
-            "UpdateStage": null
-        },
-        "AAAAD": {}
-    }
+        "Phone_Number_2": {
+          "Number1": 9880875322,
+          "Number_Of_Time_Corrected": null,
+          "Datetime.now()": null
+        }
+      },
+      "Relation_With_Other_Conatact": null
+    },
+    "Name2": null
+  },
+  "03Status": null,
+  "04NoOfTimeCalled": null,
+  "05FollowUpDate": null,
+  "06UpdateStage": null
 }

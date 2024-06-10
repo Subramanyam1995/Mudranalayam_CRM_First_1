@@ -19,6 +19,7 @@ def update_viewer(link):
 
 
     window.mainloop()
+    
 def Name_Updater():
     Name_011 = data_filds["01Name"]["01_list_of_Name"]["First_reg_Name"]["011Name"]
     Datetime_012 = data_filds["01Name"]["01_list_of_Name"]["First_reg_Name"]["012Datetime.now()"]

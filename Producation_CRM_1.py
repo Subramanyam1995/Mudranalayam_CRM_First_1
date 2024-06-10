@@ -10,13 +10,11 @@ Window.geometry("400x600")
 # Funcations 1.1
 def Producation_1_1_0_Sender():
     value = Entry_var_Customer_Data_Updater.get()
-    if type(value) == int:
+    if value.isnumeric():
         Producation_1_1_0(value)
     else: 
-        tk.Label(window_1_1, text="Invaild Input").pack()
+        tk.Label(window_1_1, text="Invaild_Input").pack()
         
-    
-
 
 # Tkinter File
 window_1_1 = tk.Frame(Window)
@@ -26,5 +24,7 @@ Entry_var_Customer_Data_Updater = tk.StringVar(window_1_1)
 ttk.Entry(window_1_1, textvariable=Entry_var_Customer_Data_Updater, font="Bahnschrift 12 bold").pack()
 tk.Button(window_1_1, text= "Click To Update", font="Bahnschrift 12 bold",command=Producation_1_1_0_Sender).pack(pady=5)
 window_1_1.pack()
+
+
 
 Window.mainloop()

@@ -8,7 +8,7 @@ import customtkinter as ctk
 
 
 
-window = tk.Tk()
+"""window = tk.Tk()
 
 window.title("CRM_1")
 
@@ -25,4 +25,5 @@ window.geometry("800x900")
 Button = ctk.CTkButton(window, text="call_one", command=Main_selection_page)
 Button.pack()
 
-window.mainloop()
+window.mainloop()"""
+

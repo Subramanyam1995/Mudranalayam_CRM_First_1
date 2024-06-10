@@ -9,12 +9,10 @@ import time
 from pprint import pprint
 
 
+Source_010102 = ("Keshav","BOP","Refered_By","Personal_Search")
 
 
-with open("Data_Base_0.json","r") as data:
-    source = json.load(data)
-with open("Data_Base_1.json","w") as data1 :
-    json.dump(source,data1,indent=4)
+
 
 list1 = ['01_Old_Name',
  '02_Owner_Names',

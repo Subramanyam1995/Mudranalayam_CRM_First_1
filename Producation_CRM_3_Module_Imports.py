@@ -11,6 +11,11 @@ from pprint import pprint
 
 
 
+with open("Data_Base_0.json","r") as data:
+    source = json.load(data)
+with open("Data_Base.json","w") as data1 :
+    json.dump(source,data1,indent=2)
+
 list1 = ['01_Old_Name',
  '02_Owner_Names',
  '03_Location',

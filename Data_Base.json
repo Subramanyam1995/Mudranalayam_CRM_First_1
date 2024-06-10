@@ -1,0 +1,164 @@
+{
+  "01_Old_Name": {
+    "0101__Old_Reg_Name": {
+      "010101__Name": "dileep printer",
+      "01012__Source": null
+    },
+    "0102__Updated_Office_Name": {
+      "01021__OfficeName": null,
+      "01022__Datetime.now()": null,
+      "01023__Number_Of_Time_Corrected": null,
+      "0102D__DumpYard": [
+        [
+          "01021",
+          "01022",
+          "01023"
+        ]
+      ]
+    }
+  },
+  "02_Owner_Names": {
+    "0201__First_Reg_Name": {
+      "020101__name": {
+        "02010101__Name": null,
+        "02010102__Datetime.now()": null,
+        "02010103__Number_Of_Time_Corrected": null,
+        "0201010D__DumpYard": []
+      },
+      "020102__PhoneNo's": {
+        "02010201__Phone_1": {
+          "0201020101__Number1": null,
+          "0201020102__Datetime.now()": null,
+          "0201020103__Number_Of_Time_Corrected": null,
+          "0201020104__if_invaild(True/False)": null,
+          "020102010D__DumpYard": []
+        },
+        "02010202__Phone_2": null
+      },
+      "020103__Position_In_Office": {
+        "02010301__Position": null,
+        "02010302__Datetime.now()": null,
+        "02010303__Number_Of_Time_Updated": null,
+        "0201030D__DumpYard": []
+      },
+      "020104Relation_With_Other_Conatact": {
+        "02010401__RelationType": [
+          [
+            "Name",
+            "Relation"
+          ]
+        ],
+        "02010402__Datetime.now()": null,
+        "02010403__Number_Of_Time_Updated": null,
+        "0201040D__DumpYard": []
+      }
+    },
+    "0202__second_Reg_Name": null
+  },
+  "03_Location": {
+    "0301__Address_Mention_In_Visiting_Card": {
+      "030101__Address": null,
+      "030102__Datetime.now()": null,
+      "030103__Number_Of_Time_Upgraded": 0,
+      "03010D__DumpYard": []
+    },
+    "0302__District": {
+      "030201__District": null,
+      "030202__Datetime.now()": null,
+      "030203__Number_Of_Time_Corrected": 0,
+      "03020D__DumpYard": []
+    },
+    "0303__Taluks": {
+      "030301__Taluks": null,
+      "030302__Datetime.now()": null,
+      "030303__Number_Of_Time_Corrected": 0,
+      "03030D__DumpYard": []
+    },
+    "0304__Other_Address_Below_Taluks": null,
+    "0305__double_office": null
+  },
+  "04_Visiting_Card_Pic": {
+    "0401__Upload_1": {
+      "040101__Upload_link": null,
+      "040102__Datetime.now()": null,
+      "040103__Number_Of_Time_Corrected": 0,
+      "040104__if_invaild(True/False)": null,
+      "04010D__DumpYard": []
+    },
+    "0402__Upload_2": null
+  },
+  "05_Fraud": {
+    "0501__Fraud": null,
+    "0502__Type_Of_Fraud": {
+      "050201__Fraud_Type": null,
+      "050302__Datetime.now()": null,
+      "050303__Number_Of_Time_Fruad": 0,
+      "050304__Explanation_Reason": null,
+      "050305__Proff_files_attachment": null,
+      "05030D__DumpYard": []
+    }
+  },
+  "06_Personal_Data": {
+    "0601__Caste": null,
+    "0602__Political_Party": null,
+    "0603__OtherThing": null,
+    "0604__Heavy_Drama": null
+  },
+  "07_Sales_Report": {},
+  "08_Recording": {
+    "0801__Call_Rec": {
+      "080101__File_Link": [
+        null
+      ]
+    },
+    "0802__Video_Rec": {
+      "080101__File_Link": [
+        null
+      ]
+    }
+  },
+  "09_Customer_Links": {
+    "0901__Update": null,
+    "0902__Friends_In_the_Industry": null,
+    "0903__Refered_By": null,
+    "0904__Hate_In_The_Industry": null,
+    "0905__Don't_Ask_Thinks": null
+  },
+  "10_Anydesk_Deatils": {
+    "1001__Collection_1": {
+      "100101__Anydesk_No": null,
+      "100102__Datetime.now()": null,
+      "100103__if_invaild(True/False)": null
+    },
+    "1002__Collection_2": null
+  },
+  "11_FollowUps_Request": {
+    "1101__Floowup": [
+      "feild_to_follow"
+    ],
+    "1102__Datetime.Datetime.now()": null,
+    "110D__DumpYard": []
+  },
+  "12_Customer_Update_Required": [
+    null
+  ],
+  "13_Gold_Mine": [
+    null
+  ],
+  "14_Date_of_Database_Creation": "Datetime.Datetime.now()",
+  "15_Database_Deactiver": {
+    "1501__Deactive": false,
+    "1502__Deactive_Reason": null,
+    "1503__Datetime.Datetime.now()": null,
+    "150D__DumpYard": []
+  },
+  "16_Caution": {
+    "1601__Caution": {
+      "160101__Caution": null,
+      "160102__Datetime.Datetime.now()": null,
+      "160103__if_invaild(True/False)": null,
+      "16010D__DumpYard": []
+    },
+    "1602__Caution": null
+  }
+}

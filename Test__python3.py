@@ -103,10 +103,7 @@ data_filds = {"01AAAAA":{ "01_Old_Name":      {
                           "12_Customer_Update_Required":None,
                           "13_Gold_Mine":None,
 
-
-                        
                         },
-              
               }
 
 
@@ -136,10 +133,15 @@ def Name_data_upload():
 
     window.mainloop()
 
-window = tk.Tk()
+    window = tk.Tk()
 
-window.geometry("300x800")
+    window.geometry("300x800")
 
-ttk.Button(window, text=" Click ME", command=Name_data_upload).pack()
+    ttk.Button(window, text=" Click ME", command=Name_data_upload).pack()
 
-window.mainloop()
+    window.mainloop()
+
+with open("Data_Base.json","r") as opendata:
+    data = json.load(opendata)
+
+print(data)

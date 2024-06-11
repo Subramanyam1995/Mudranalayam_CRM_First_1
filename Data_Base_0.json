@@ -1,5 +1,5 @@
-{                          "01_Old_Name":      {
-                                                                          "0101__Old_Reg_Name"        : { "010101__Name"   :  "dileep printer",
+{                          "01_Old_Serial_Name":      {
+                                                                          "0101__Phone_Saved_Name"    : { "010101__Name"   :  null,
                                                                                                           "010102__Source"  : null
                                                                                                         },
                                                                           "0102__Updated_Office_Name" : {
@@ -15,14 +15,14 @@
                           "02_Owner_Names":{ "0201__First_Reg_Name" : { "020101__name"                :{"02010101__Name": null,
                                                                                                         "02010102__Datetime.now()": null,
                                                                                                         "02010103__Number_Of_Time_Corrected": null,
-                                                                                                        "0201010D__DumpYard": []
+                                                                                                        "0201010D__DumpYard": [["02010101","02010102","02010103"]]
                                                                                                       },
                                                                         "020102__PhoneNo's"           :{"02010201__Phone_1":
                                                                                                                             {"0201020101__Number1": null,
                                                                                                                             "0201020102__Datetime.now()": null,
                                                                                                                             "0201020103__Number_Of_Time_Corrected": null,
                                                                                                                             "0201020104__if_invaild(True/False)":null,
-                                                                                                                            "020102010D__DumpYard": []
+                                                                                                                            "020102010D__DumpYard": [["0201020101","0201020102","0201020103","0201020104"]]
                                                                                                                             },
                                                                                                         "02010202__Phone_2":null
                                                                                                         }
@@ -31,13 +31,13 @@
                                                                                                         "02010301__Position": null,
                                                                                                         "02010302__Datetime.now()": null,
                                                                                                         "02010303__Number_Of_Time_Updated": null,
-                                                                                                        "0201030D__DumpYard": []
+                                                                                                        "0201030D__DumpYard": [["02010301","02010302","02010303"]]
                                                                                                       },
                                                                         "020104Relation_With_Other_Conatact":{
                                                                                                         "02010401__RelationType": [["Name","Relation"]],
                                                                                                         "02010402__Datetime.now()": null,
                                                                                                         "02010403__Number_Of_Time_Updated": null,
-                                                                                                        "0201040D__DumpYard": []
+                                                                                                        "0201040D__DumpYard": [["02010401","02010402","02010403"]]
                                                                                                         }
                                                                     },
 
@@ -47,17 +47,19 @@
                                                 "0301__Address_Mention_In_Visiting_Card":{              "030101__Address": null,
                                                                                                         "030102__Datetime.now()": null,
                                                                                                         "030103__Number_Of_Time_Upgraded": 0,
-                                                                                                        "03010D__DumpYard": []
+                                                                                                        "03010D__DumpYard": [["030101","030102","030103"]]
                                                                                         },
                                                 "0302__District":                        {              "030201__District": null,
                                                                                                         "030202__Datetime.now()": null,
                                                                                                         "030203__Number_Of_Time_Corrected": 0,
-                                                                                                        "03020D__DumpYard": []
+                                                                                                        "030204__List_of_District":"Get_the_Link_from_Database",
+                                                                                                        "03020D__DumpYard": [["030201","030202","030203"]]
                                                                                         },
                                                 "0303__Taluks":                           {             "030301__Taluks": null,
                                                                                                         "030302__Datetime.now()": null,
                                                                                                         "030303__Number_Of_Time_Corrected": 0,
-                                                                                                        "03030D__DumpYard": []
+                                                                                                        "030304__List_of_Taluks":"Get_the_Link_from_Database",
+                                                                                                        "03030D__DumpYard": [["030301","030302","030303"]]
                                                                                         },
                                                 "0304__Other_Address_Below_Taluks":null,
 
@@ -67,7 +69,7 @@
                                                                                     "040102__Datetime.now()" : null,
                                                                                     "040103__Number_Of_Time_Corrected": 0,
                                                                                     "040104__if_invaild(True/False)":null,
-                                                                                    "04010D__DumpYard": []
+                                                                                    "04010D__DumpYard": [["040101","040102","040103","040104"]]
                                                                                    },
                                                           "0402__Upload_2":          null
                                                         },

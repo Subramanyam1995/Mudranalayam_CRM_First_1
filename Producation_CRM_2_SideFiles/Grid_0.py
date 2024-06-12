@@ -63,7 +63,7 @@ def disabler_window_1_1_0(value,lab):
             i.configure(state="normal") 
 
 
-#---------------------
+# ---------------------
 window_01_01_01 = tk.Frame(window)
 
 # Heading Name Stage_1//2

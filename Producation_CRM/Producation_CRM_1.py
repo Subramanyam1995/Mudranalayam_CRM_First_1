@@ -1,5 +1,5 @@
-from Producation_CRM_3_Module_Imports import *
-from Producation_CRM_2 import *
+from Producation_CRM.Producation_CRM_3_Module_Imports import *
+from Producation_CRM.Producation_CRM_2 import *
 
 # Opening Page Funcations 1.0
 Window = tk.Tk()

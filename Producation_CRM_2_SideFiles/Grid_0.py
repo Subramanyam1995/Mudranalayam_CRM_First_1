@@ -110,7 +110,7 @@ Old_Serial_Name = tk.StringVar(value=f"{value_inputed}_01_Old_Serial_Name")
 Old_Serial_Name_010101 = tk.Label(window_01_01_01, text=Old_Serial_Name.get(),font='Bahnschrift 20 bold')
 Old_Serial_Name_010101.grid(row=1,column=1,columnspan=2) 
 # 02_02_Serial_No : Label
-tk.Label(window_01_01_01, text="1 :",font='Bahnschrift 12 bold', command=None).grid(row=2,column=0)
+tk.Label(window_01_01_01, text="1.1 :",font='Bahnschrift 12 bold', command=None).grid(row=2,column=0)
 # 02_03_Key : Label 
 tk.Label(window_01_01_01, text = f"{value_inputed}_010101_Name",font='Bahnschrift 12 bold', command=None).grid(row=2,column=1)
 # 02_04_Value : Entrys
@@ -119,7 +119,7 @@ tk.Entry(window_01_01_01, textvariable=Name_010101, font='Bahnschrift 12 bold').
 
 
 # 03_01_Serial_No : Label
-tk.Label(window_01_01_01, text="2 :",font='Bahnschrift 12 bold', command=None).grid(row=3,column=0)
+tk.Label(window_01_01_01, text="1.2 :",font='Bahnschrift 12 bold', command=None).grid(row=3,column=0)
 # 03_02_Key : Label 
 tk.Label(window_01_01_01, text = f"{value_inputed}_010102_Source" ,font='Bahnschrift 12 bold', command=None).grid(row=3,column=1)
 # 03_03_Value : Entrys
@@ -128,7 +128,7 @@ ttk.Combobox(window_01_01_01, textvariable=Source_010102, value = tuple(Set_of_P
 
 
 # 04_01_Serial_No : Label
-tk.Label(window_01_01_01, text="3 :",font='Bahnschrift 12 bold', command=None).grid(row=4,column=0)
+tk.Label(window_01_01_01, text="1.3 :",font='Bahnschrift 12 bold', command=None).grid(row=4,column=0)
 # 04_02_Key : Label 
 tk.Label(window_01_01_01, text = f"{value_inputed}_01021_OfficeName", font='Bahnschrift 12 bold', command=None).grid(row=4,column=1)
 # 04_03_Value : Entrys
@@ -139,7 +139,7 @@ tk.Entry(window_01_01_01, textvariable=OfficeName_01021, font='Bahnschrift 12 bo
 Old_Serial_Name_010101 = tk.Label(window_01_01_01, text="02_Owner_Names",font='Bahnschrift 20 bold').grid(row=5,column=1,columnspan=2) 
 
 # 06_01_Serial_No : Label
-tk.Label(window_01_01_01, text="4 :",font='Bahnschrift 12 bold', command=None).grid(row=6,column=0)
+tk.Label(window_01_01_01, text="2.1 :",font='Bahnschrift 12 bold', command=None).grid(row=6,column=0)
 # 06_02_Key : Label 
 tk.Label(window_01_01_01, text = f"{value_inputed}_0201__First_Reg_Name", font='Bahnschrift 12 bold', command=None).grid(row=6,column=1)
 # 06_03_Value : Entrys
@@ -147,7 +147,7 @@ OfficeName_01021 = tk.StringVar(window_01_01_01)
 tk.Entry(window_01_01_01, textvariable=OfficeName_01021, font='Bahnschrift 12 bold').grid(row=6,column=2)  
 
 # 07_01_Serial_No : Label
-tk.Label(window_01_01_01, text="5 :",font='Bahnschrift 12 bold', command=None).grid(row=7,column=0)
+tk.Label(window_01_01_01, text="2.2 :",font='Bahnschrift 12 bold', command=None).grid(row=7,column=0)
 # 07_02_Key : Label 
 tk.Label(window_01_01_01, text = f"{value_inputed}__02010201__Phone_1", font='Bahnschrift 12 bold', command=None).grid(row=7,column=1)
 # 07_03_Value : Entrys
@@ -158,20 +158,43 @@ tk.Entry(window_01_01_01, textvariable=OfficeName_01021, font='Bahnschrift 12 bo
 tk.Checkbutton(window_01_01_01, text="More Than On Number", font='Bahnschrift 12 bold', command=None).grid(row=15,column=0, columnspan=3)
 
 # 08_01_Serial_No : Label
-tk.Label(window_01_01_01, text="6 :",font='Bahnschrift 12 bold', command=None).grid(row=16,column=0)
+tk.Label(window_01_01_01, text="2.3 :",font='Bahnschrift 12 bold', command=None).grid(row=16,column=0)
 # 08_02_Key : Label 
 tk.Label(window_01_01_01, text = f"{value_inputed}__020103__Position_In_Office", font='Bahnschrift 12 bold', command=None).grid(row=16,column=1)
 # 08_03_Value : Entrys
 OfficeName_01021 = tk.StringVar(window_01_01_01)
 tk.Entry(window_01_01_01, textvariable=OfficeName_01021, font='Bahnschrift 12 bold').grid(row=16,column=2) 
 
-# 09_01_Serial_No : Label
-tk.Label(window_01_01_01, text="7 :",font='Bahnschrift 12 bold', command=None).grid(row=17,column=0)
-# 09_02_Key : Label 
-tk.Label(window_01_01_01, text = f"{value_inputed}__020103__Position_In_Office", font='Bahnschrift 12 bold', command=None).grid(row=17,column=1)
-# 09_03_Value : Entrys
+# 09_01_Value : Checkbox
+tk.Checkbutton(window_01_01_01, text="Add Another Meomber of Office", font='Bahnschrift 12 bold', command=None).grid(row=17,column=0, columnspan=3)
+
+# 10_01_Heading : Label
+Old_Serial_Name_010101 = tk.Label(window_01_01_01, text="03 Adress From Visiting Card",font='Bahnschrift 20 bold').grid(row=18,column=1,columnspan=2) 
+
+# 10_01_Serial_No : Label
+tk.Label(window_01_01_01, text="3.1 :",font='Bahnschrift 12 bold', command=None).grid(row=19,column=0)
+# 10_02_Key : Label 
+tk.Label(window_01_01_01, text = f"{value_inputed}__0301__Address_Mention_In_Visiting_Card", font='Bahnschrift 12 bold', command=None).grid(row=19,column=1)
+# 10_03_Value : Entrys
 OfficeName_01021 = tk.StringVar(window_01_01_01)
-tk.Entry(window_01_01_01, textvariable=OfficeName_01021, font='Bahnschrift 12 bold').grid(row=17,column=2) 
+tk.Entry(window_01_01_01, textvariable=OfficeName_01021, font='Bahnschrift 12 bold').grid(row=19,column=2) 
+
+# 09_01_Value : Checkbox
+tk.Checkbutton(window_01_01_01, text="District", font='Bahnschrift 12 bold', command=None).grid(row=20,column=0)
+# 09_01_Value : Checkbox
+tk.Checkbutton(window_01_01_01, text="Taluk", font='Bahnschrift 12 bold', command=None).grid(row=20,column=1)
+# 09_01_Value : Checkbox
+tk.Checkbutton(window_01_01_01, text="Below Taluk", font='Bahnschrift 12 bold', command=None).grid(row=20,column=2)
+# 09_01_Value : Checkbox
+tk.Checkbutton(window_01_01_01, text="If Other_Offices", font='Bahnschrift 12 bold', command=None).grid(row=21,column=1)
+
+# 10_01_Serial_No : Label
+tk.Label(window_01_01_01, text="3.2 :",font='Bahnschrift 12 bold', command=None).grid(row=22,column=0)
+# 10_02_Key : Label 
+tk.Label(window_01_01_01, text = f"{value_inputed}__0302__District", font='Bahnschrift 12 bold', command=None).grid(row=22,column=1)
+# 10_03_Value : Entrys
+OfficeName_01021 = tk.StringVar(window_01_01_01)
+tk.Entry(window_01_01_01, textvariable=OfficeName_01021, font='Bahnschrift 12 bold').grid(row=22,column=2) 
 
 tk.Button(window_01_01_01, text="Pusher", font='Bahnschrift 12 bold', command=lambda:Pusher_grid_0(value_inputed,Name_010101.get(),Source_010102.get(),OfficeName_01021.get())).grid(row=50,column=1, columnspan=2)  
 

@@ -101,11 +101,12 @@ tk.Label(window, text="Hello3").grid(row=3, column=0)
 
 checkbox = tk.IntVar(window)
 
-ttk.Checkbutton(window, 
+ttk.Checkbutton(
+                window, 
                 text="CheckBox",
                 onvalue=1, 
                 offvalue=0,
-                variable=checkbox
+                variable=checkbox,
                 #command = lambda: tk.Label(window, text="Number_1").grid(row=5+j, column=0) for j in range(10) if checkbox.get() == 1 else None,
                 ).grid(row=4, column=0)
 

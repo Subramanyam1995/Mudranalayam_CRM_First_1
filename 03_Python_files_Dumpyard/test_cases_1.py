@@ -1,5 +1,7 @@
 import json
-
+import datetime
+import time
+"""
 with open("test_cases_1.json","r+") as data:
     database = json.load(data)
 print(database)
@@ -9,4 +11,11 @@ for i in range(1000):
         database1[f"{i}"]=database
 
 with open("test_cases_1.json","w") as data:
-        json.dump(database1,data, indent=15)
+        json.dump(database1,data, indent=15)"""
+
+a = datetime.datetime.now()
+with open("test_cases_1.json","r+") as data:
+    Database = json.load(data)
+print(len(Database.keys()))
+
+print( datetime.datetime.now() - a)
